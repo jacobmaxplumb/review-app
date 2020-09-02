@@ -14,12 +14,14 @@ import {
   MatButtonModule,
   MatIconModule,
   MatGridListModule,
-  MatMenuModule
+  MatMenuModule,
+  MatCardModule
 } from '@angular/material';
 import { HomeComponent } from './components/home/home.component';
 import { FeaturedListComponent } from './components/featured-list/featured-list.component';
 import { CategoriesMenuComponent } from './components/categories-menu/categories-menu.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { BuisnessThumbnailComponent } from './components/buisness-thumbnail/buisness-thumbnail.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     HomeComponent,
     FeaturedListComponent,
     CategoriesMenuComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    BuisnessThumbnailComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,8 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     MatIconModule,
     MatGridListModule,
     FlexLayoutModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

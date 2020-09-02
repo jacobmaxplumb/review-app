@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { companyData } from '../../data/fake-company';
 
 @Component({
   selector: 'app-featured-list',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturedListComponent implements OnInit {
 
+  companies: any;
+
   constructor() { }
 
   ngOnInit() {
+    this.companies = companyData;
   }
 
 }

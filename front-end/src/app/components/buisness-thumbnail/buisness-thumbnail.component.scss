@@ -1,0 +1,12 @@
+.business-thumbnail {
+    margin: 10px;
+    text-align: left;
+    .rate-button {
+        position: absolute;
+        right: 5%;
+        top: 4%;
+    }
+    mat-card-actions {
+        text-align: center;
+    }
+}

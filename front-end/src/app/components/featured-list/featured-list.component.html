@@ -1,3 +1,4 @@
-<p>
-  featured-list works!
-</p>
+<div class="feature-list-conatiner">
+    <h2>Featured Businesses</h2>
+    <app-buisness-thumbnail class="margin-around" *ngFor="let company of companies" [company]="company"></app-buisness-thumbnail>
+</div>

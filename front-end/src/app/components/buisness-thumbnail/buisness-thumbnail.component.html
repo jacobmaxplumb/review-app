@@ -1,0 +1,18 @@
+<mat-card class="business-thumbnail">
+    <mat-card-header>
+        <mat-card-title>{{company.name}}</mat-card-title>
+        <mat-card-subtitle>{{company.category}} - {{company.stars}}/5 ({{company.reviewed}})</mat-card-subtitle>
+        <button class="rate-button" mat-button>RATE</button>
+    </mat-card-header>
+    <img mat-card-image [src]="company.image" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+        <p>
+            {{company.description}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button>SHARE</button>
+        <button mat-button>MAP</button>
+        <button mat-button>REVIEWS</button>
+    </mat-card-actions>
+</mat-card>
